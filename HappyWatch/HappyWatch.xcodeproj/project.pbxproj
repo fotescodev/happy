@@ -1,0 +1,870 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F3CB7655C72F560546D78F0 /* HappyTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7152EDBB4DC2CDA5B90F2E07 /* HappyTypography.swift */; };
+		0F5986C2CF67C04F2BDE7A57 /* ConnectivityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65BFA6502BF2831502E879E /* ConnectivityService.swift */; };
+		144BD6D4E75FB93D2124D3B8 /* RectangularComplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B3860442DBB06700D15F34 /* RectangularComplication.swift */; };
+		1D0901CCD7FBDB5704BA8802 /* ViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F45EE8B772D942EEB9DE5C /* ViewState.swift */; };
+		221187DECE5C6AD372D89139 /* WaitingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C31522A1253682BF551A612 /* WaitingView.swift */; };
+		2F059BD346C93EAF199423F8 /* GlassStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6B5440714B2CB64E53B47C /* GlassStyles.swift */; };
+		30AECC28A936949C0AB169B8 /* ClaudeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA45D164CB5CFC409F943C67 /* ClaudeState.swift */; };
+		32B0D15CFA5C9DD8C6E6E71D /* ApprovalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2253901C57DB3C9D17EB2D77 /* ApprovalListView.swift */; };
+		348DAD4C9C7669AE849B3557 /* StatusBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B347347DC4766D77E09C62E2 /* StatusBadge.swift */; };
+		36470C3CB15E4DFF6FC08FF0 /* ApprovalVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93976F3E4489554DB8E11CB7 /* ApprovalVM.swift */; };
+		3CDB84E1FA50215354B2F1C0 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE4C5972CB9C872D87D7BA /* AppState.swift */; };
+		4A9C9ED377FB46DE06E4277A /* PermissionDecision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CE694B6CB44FD45E99E742 /* PermissionDecision.swift */; };
+		4F9D122102C70EEE070DF610 /* CircularComplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE09DB82B14DD4B96F565345 /* CircularComplication.swift */; };
+		4FF4CC616B2CF91883A56DE1 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6BAE0CD8B7D61A343ECE66 /* AuthService.swift */; };
+		538991467A8BE11800D1829D /* HappyColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3081506C5D5964B4DCED946 /* HappyColors.swift */; };
+		682B862779E6130CFA8EE50F /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1DD0F83F0D378605079DC7 /* KeychainHelper.swift */; };
+		6BF4FBAA7ADA340784B7DC81 /* InlineComplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E9E417702CDEB6D41F08 /* InlineComplication.swift */; };
+		7DAA882DBE40F7C28E32D78B /* SyncServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9726BF38F0C1CA14008B06C /* SyncServiceTests.swift */; };
+		8396A0B82C68778E275641B2 /* SyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE12AAF72E3887DE7E4D3788 /* SyncService.swift */; };
+		8841C90C881D0A501ED25578 /* WatchAgentState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92CAEFF11C0820B00ECC043 /* WatchAgentState.swift */; };
+		8C3CE842BE4A50C08D94A022 /* HappyColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3081506C5D5964B4DCED946 /* HappyColors.swift */; };
+		99A43895F52C4FF1F1B661B7 /* WatchSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDEBE266C1C21CFF6A96EB4 /* WatchSession.swift */; };
+		9C1010CB70892D389FDD72E3 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F1643FAB7FE7589D12BFF /* MockData.swift */; };
+		9D704CE73EF362D8AFCCED52 /* WatchMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BBE7B459968869794ADB56 /* WatchMetadata.swift */; };
+		9E5E9F4D550DF79BAAD0E503 /* SessionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD7E11CA1E3BA51799F01DD /* SessionRowView.swift */; };
+		A15DF13017907F2DA3B17F24 /* SessionListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CAC9655E4022AE62539181 /* SessionListVM.swift */; };
+		A39504F238DB775AF41AC211 /* EncryptionBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DE5BFF43ADD65F05CD55C8 /* EncryptionBridge.swift */; };
+		A4F91238AD3D5B98274DF263 /* IdleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B098328FD84E127E2ECD830 /* IdleView.swift */; };
+		A57BC3F354DEEA44D20EAD35 /* ApproveControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F9399470BE059CD309677 /* ApproveControl.swift */; };
+		AB255DF64704A87B6F3F7D4A /* WatchAgentState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92CAEFF11C0820B00ECC043 /* WatchAgentState.swift */; };
+		AC77881928F9C29AEF966A2C /* WorkingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A1BFE27619535A63A54EA7 /* WorkingView.swift */; };
+		AE32E95EFC7489C248416F44 /* TimelineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01F3460470DF43F52618CAD /* TimelineProvider.swift */; };
+		B3642C2B5E8702BE9AD603A9 /* RESTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43490E430EA97BDD266E0FA8 /* RESTService.swift */; };
+		B77E4A98901E3187E744318B /* PermissionDecision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CE694B6CB44FD45E99E742 /* PermissionDecision.swift */; };
+		B7FDD18885289314D707BADE /* SessionDetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556E4B91D98BEF0F54A9A1EF /* SessionDetailVM.swift */; };
+		BCF9B718F39904746CDE755B /* AuthSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F44471CB3A936415B8DAFF /* AuthSuccessView.swift */; };
+		BD2CDBF51D44D8BA8D013C73 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE6ECC3F39DB3B0FAD6C8B8 /* NotificationService.swift */; };
+		C07B1290549646CDEB1223C5 /* AppGroupStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6C8560E584B88CBA2469B5 /* AppGroupStorage.swift */; };
+		C5858EF419018CE140DCA5E9 /* HappyWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5845D303436704FB8B627F /* HappyWatchApp.swift */; };
+		C7D2EF7CC73D784C60414154 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D904E7ABA9EF48561EEB1B63 /* KeychainSwift */; };
+		C8957FB8462C478996A9445D /* ClaudeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA45D164CB5CFC409F943C67 /* ClaudeState.swift */; };
+		CE8164BEACC323466FFEA03A /* PairingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77118FDCFB37F3F93228561 /* PairingView.swift */; };
+		D1A52FC689BFEE8AF13E5E6E /* WatchMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BBE7B459968869794ADB56 /* WatchMetadata.swift */; };
+		D27AFECE955EC8DE9FACDD44 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEF93ACCD2F5DF9262A609F /* EmptyView.swift */; };
+		D487831ADA6131C747E4AF98 /* ClaudeStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B238ED6667FBF9987009B409 /* ClaudeStateTests.swift */; };
+		D4FCF97FCB95A5FC6F860C1C /* ApprovalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59946E0D82622DF55E844DB6 /* ApprovalDetailView.swift */; };
+		D56B146AA1FAC9094D1A312B /* CornerComplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08B9277239A18E3E51017BB /* CornerComplication.swift */; };
+		D5D66279030D551B5944BA05 /* SessionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7195A89DC49B4071B99889 /* SessionListView.swift */; };
+		D7AE386AF4C34D721D0F6082 /* ApprovalActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81803384D403F3A27A5443D4 /* ApprovalActionsView.swift */; };
+		D888E63C20D0FBDA5C11D732 /* HappyWatchWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2192B5BF9AAA009A030FA982 /* HappyWatchWidgetBundle.swift */; };
+		DFFE545AB9C44EA692A85292 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EB7A8147A7DB1E9810A053 /* ContentView.swift */; };
+		E17DA2D5FACCB9C4A4E52551 /* WatchSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDEBE266C1C21CFF6A96EB4 /* WatchSession.swift */; };
+		E42418F89AC2A2195D564AFD /* ConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7740B5C13C83D6023C7CC22 /* ConfirmationView.swift */; };
+		ED63E6D23CC9B41F87CBD12C /* AppGroupStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6C8560E584B88CBA2469B5 /* AppGroupStorage.swift */; };
+		F325CA564AA71367C7B3B265 /* RelevanceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704F5E40D3279C416C0EF6D6 /* RelevanceProvider.swift */; };
+		FD4A8385310EBD190C9D61C2 /* ViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F45EE8B772D942EEB9DE5C /* ViewState.swift */; };
+		FEDD7C8560CAF744748A08C0 /* ViewStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D1C1F390CE0F6068E2326E /* ViewStateTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAE604BAE269BB0DE7FD5B83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A86B3B16D417658409E23BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34CB626C19D971CAF15D2C55;
+			remoteInfo = HappyWatchApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05B3860442DBB06700D15F34 /* RectangularComplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangularComplication.swift; sourceTree = "<group>"; };
+		11BFFAA1D95F6A02CE52F19F /* HappyWatchApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HappyWatchApp.entitlements; sourceTree = "<group>"; };
+		189F9399470BE059CD309677 /* ApproveControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApproveControl.swift; sourceTree = "<group>"; };
+		1B098328FD84E127E2ECD830 /* IdleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdleView.swift; sourceTree = "<group>"; };
+		1D6B5440714B2CB64E53B47C /* GlassStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassStyles.swift; sourceTree = "<group>"; };
+		2192B5BF9AAA009A030FA982 /* HappyWatchWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyWatchWidgetBundle.swift; sourceTree = "<group>"; };
+		21D1C1F390CE0F6068E2326E /* ViewStateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewStateTests.swift; sourceTree = "<group>"; };
+		2253901C57DB3C9D17EB2D77 /* ApprovalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprovalListView.swift; sourceTree = "<group>"; };
+		2342E9E417702CDEB6D41F08 /* InlineComplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineComplication.swift; sourceTree = "<group>"; };
+		27CE694B6CB44FD45E99E742 /* PermissionDecision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionDecision.swift; sourceTree = "<group>"; };
+		2A6BAE0CD8B7D61A343ECE66 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		2BDEBE266C1C21CFF6A96EB4 /* WatchSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSession.swift; sourceTree = "<group>"; };
+		35BC3E062958E3B5BACE51E3 /* HappyWatchWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HappyWatchWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C31522A1253682BF551A612 /* WaitingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingView.swift; sourceTree = "<group>"; };
+		41CAC9655E4022AE62539181 /* SessionListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionListVM.swift; sourceTree = "<group>"; };
+		43490E430EA97BDD266E0FA8 /* RESTService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESTService.swift; sourceTree = "<group>"; };
+		43F44471CB3A936415B8DAFF /* AuthSuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthSuccessView.swift; sourceTree = "<group>"; };
+		4D6F1643FAB7FE7589D12BFF /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		514B6547689406B0DA6824CE /* HappyWatchWidgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HappyWatchWidgets.entitlements; sourceTree = "<group>"; };
+		51F45EE8B772D942EEB9DE5C /* ViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewState.swift; sourceTree = "<group>"; };
+		556E4B91D98BEF0F54A9A1EF /* SessionDetailVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDetailVM.swift; sourceTree = "<group>"; };
+		59946E0D82622DF55E844DB6 /* ApprovalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprovalDetailView.swift; sourceTree = "<group>"; };
+		68BBE7B459968869794ADB56 /* WatchMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchMetadata.swift; sourceTree = "<group>"; };
+		6CE6ECC3F39DB3B0FAD6C8B8 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		704F5E40D3279C416C0EF6D6 /* RelevanceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelevanceProvider.swift; sourceTree = "<group>"; };
+		7152EDBB4DC2CDA5B90F2E07 /* HappyTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyTypography.swift; sourceTree = "<group>"; };
+		787FFE4B91442B7A1D36DC01 /* HappyWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81803384D403F3A27A5443D4 /* ApprovalActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprovalActionsView.swift; sourceTree = "<group>"; };
+		8B0B6EE451E818A2B4B3F6F8 /* HappyWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F5845D303436704FB8B627F /* HappyWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyWatchApp.swift; sourceTree = "<group>"; };
+		8FDE4C5972CB9C872D87D7BA /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		93976F3E4489554DB8E11CB7 /* ApprovalVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprovalVM.swift; sourceTree = "<group>"; };
+		9EEF93ACCD2F5DF9262A609F /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
+		A3081506C5D5964B4DCED946 /* HappyColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HappyColors.swift; path = HappyWatchApp/DesignSystem/HappyColors.swift; sourceTree = "<group>"; };
+		A6DE5BFF43ADD65F05CD55C8 /* EncryptionBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptionBridge.swift; sourceTree = "<group>"; };
+		A7A1BFE27619535A63A54EA7 /* WorkingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingView.swift; sourceTree = "<group>"; };
+		A9726BF38F0C1CA14008B06C /* SyncServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncServiceTests.swift; sourceTree = "<group>"; };
+		AA45D164CB5CFC409F943C67 /* ClaudeState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeState.swift; sourceTree = "<group>"; };
+		AE12AAF72E3887DE7E4D3788 /* SyncService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncService.swift; sourceTree = "<group>"; };
+		AE1DD0F83F0D378605079DC7 /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		AE6C8560E584B88CBA2469B5 /* AppGroupStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppGroupStorage.swift; path = HappyWatchApp/Utilities/AppGroupStorage.swift; sourceTree = "<group>"; };
+		B238ED6667FBF9987009B409 /* ClaudeStateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeStateTests.swift; sourceTree = "<group>"; };
+		B347347DC4766D77E09C62E2 /* StatusBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBadge.swift; sourceTree = "<group>"; };
+		BF7195A89DC49B4071B99889 /* SessionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionListView.swift; sourceTree = "<group>"; };
+		C65BFA6502BF2831502E879E /* ConnectivityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivityService.swift; sourceTree = "<group>"; };
+		CE09DB82B14DD4B96F565345 /* CircularComplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularComplication.swift; sourceTree = "<group>"; };
+		D77118FDCFB37F3F93228561 /* PairingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairingView.swift; sourceTree = "<group>"; };
+		D7740B5C13C83D6023C7CC22 /* ConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationView.swift; sourceTree = "<group>"; };
+		D92CAEFF11C0820B00ECC043 /* WatchAgentState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchAgentState.swift; sourceTree = "<group>"; };
+		DBD7E11CA1E3BA51799F01DD /* SessionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionRowView.swift; sourceTree = "<group>"; };
+		E4EB7A8147A7DB1E9810A053 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F01F3460470DF43F52618CAD /* TimelineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineProvider.swift; sourceTree = "<group>"; };
+		F08B9277239A18E3E51017BB /* CornerComplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerComplication.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FE1EADB80540231474F7E4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7D2EF7CC73D784C60414154 /* KeychainSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B58E837F7F8B3CCBDD17A1F /* Status */ = {
+			isa = PBXGroup;
+			children = (
+				1B098328FD84E127E2ECD830 /* IdleView.swift */,
+				A7A1BFE27619535A63A54EA7 /* WorkingView.swift */,
+			);
+			path = Status;
+			sourceTree = "<group>";
+		};
+		14759947E29187C753B70A22 = {
+			isa = PBXGroup;
+			children = (
+				4CB78CEBA646C4F8FABA2BBF /* HappyWatchApp */,
+				EC97C5C3427FFF89F3E8FF27 /* HappyWatchTests */,
+				52B936805F61E4F8C44C15AD /* HappyWatchWidgets */,
+				C7E3CA94C5FDDCA500E5DDF6 /* Shared */,
+				CF1CA639233FE98C37F1216F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1934FD0D6E80262AE275E4A5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A9726BF38F0C1CA14008B06C /* SyncServiceTests.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2DA0D804CE92F40E7E84902B /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				1D6B5440714B2CB64E53B47C /* GlassStyles.swift */,
+				A3081506C5D5964B4DCED946 /* HappyColors.swift */,
+				7152EDBB4DC2CDA5B90F2E07 /* HappyTypography.swift */,
+				B347347DC4766D77E09C62E2 /* StatusBadge.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		3BD32625FF27EFE20FFB83B5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AE6C8560E584B88CBA2469B5 /* AppGroupStorage.swift */,
+				AE1DD0F83F0D378605079DC7 /* KeychainHelper.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		4CB78CEBA646C4F8FABA2BBF /* HappyWatchApp */ = {
+			isa = PBXGroup;
+			children = (
+				2DA0D804CE92F40E7E84902B /* DesignSystem */,
+				E79D571DA24375DCC8A5B715 /* Models */,
+				AB08BF9651CE88A192405C05 /* Services */,
+				3BD32625FF27EFE20FFB83B5 /* Utilities */,
+				BD9D83A172089E449513749D /* ViewModels */,
+				E9E89202837ADCC84A66970F /* Views */,
+				E4EB7A8147A7DB1E9810A053 /* ContentView.swift */,
+				11BFFAA1D95F6A02CE52F19F /* HappyWatchApp.entitlements */,
+				8F5845D303436704FB8B627F /* HappyWatchApp.swift */,
+			);
+			path = HappyWatchApp;
+			sourceTree = "<group>";
+		};
+		52B936805F61E4F8C44C15AD /* HappyWatchWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				189F9399470BE059CD309677 /* ApproveControl.swift */,
+				CE09DB82B14DD4B96F565345 /* CircularComplication.swift */,
+				F08B9277239A18E3E51017BB /* CornerComplication.swift */,
+				2192B5BF9AAA009A030FA982 /* HappyWatchWidgetBundle.swift */,
+				514B6547689406B0DA6824CE /* HappyWatchWidgets.entitlements */,
+				2342E9E417702CDEB6D41F08 /* InlineComplication.swift */,
+				05B3860442DBB06700D15F34 /* RectangularComplication.swift */,
+				704F5E40D3279C416C0EF6D6 /* RelevanceProvider.swift */,
+				F01F3460470DF43F52618CAD /* TimelineProvider.swift */,
+			);
+			path = HappyWatchWidgets;
+			sourceTree = "<group>";
+		};
+		73679E8015F67511535A7FBE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E79D571DA24375DCC8A5B715 /* Models */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		8AF28FD8FF0A51085DE11BB4 /* Approval */ = {
+			isa = PBXGroup;
+			children = (
+				81803384D403F3A27A5443D4 /* ApprovalActionsView.swift */,
+				59946E0D82622DF55E844DB6 /* ApprovalDetailView.swift */,
+				2253901C57DB3C9D17EB2D77 /* ApprovalListView.swift */,
+				D7740B5C13C83D6023C7CC22 /* ConfirmationView.swift */,
+			);
+			path = Approval;
+			sourceTree = "<group>";
+		};
+		AB08BF9651CE88A192405C05 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2A6BAE0CD8B7D61A343ECE66 /* AuthService.swift */,
+				C65BFA6502BF2831502E879E /* ConnectivityService.swift */,
+				A6DE5BFF43ADD65F05CD55C8 /* EncryptionBridge.swift */,
+				6CE6ECC3F39DB3B0FAD6C8B8 /* NotificationService.swift */,
+				43490E430EA97BDD266E0FA8 /* RESTService.swift */,
+				AE12AAF72E3887DE7E4D3788 /* SyncService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AE99F149D1F1DE7124BC3B3B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B238ED6667FBF9987009B409 /* ClaudeStateTests.swift */,
+				21D1C1F390CE0F6068E2326E /* ViewStateTests.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BD9D83A172089E449513749D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				93976F3E4489554DB8E11CB7 /* ApprovalVM.swift */,
+				8FDE4C5972CB9C872D87D7BA /* AppState.swift */,
+				556E4B91D98BEF0F54A9A1EF /* SessionDetailVM.swift */,
+				41CAC9655E4022AE62539181 /* SessionListVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C7E3CA94C5FDDCA500E5DDF6 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				CEB826A6A618BA2A203372A4 /* DesignSystem */,
+				73679E8015F67511535A7FBE /* Models */,
+				D4915015F5A9E7FFF158B234 /* Utilities */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		CEB826A6A618BA2A203372A4 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				A3081506C5D5964B4DCED946 /* HappyColors.swift */,
+			);
+			name = DesignSystem;
+			sourceTree = "<group>";
+		};
+		CF1CA639233FE98C37F1216F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B0B6EE451E818A2B4B3F6F8 /* HappyWatchApp.app */,
+				787FFE4B91442B7A1D36DC01 /* HappyWatchTests.xctest */,
+				35BC3E062958E3B5BACE51E3 /* HappyWatchWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4915015F5A9E7FFF158B234 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AE6C8560E584B88CBA2469B5 /* AppGroupStorage.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		DFA8190E726BF9C170B496E1 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				4D6F1643FAB7FE7589D12BFF /* MockData.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		E79D571DA24375DCC8A5B715 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA45D164CB5CFC409F943C67 /* ClaudeState.swift */,
+				27CE694B6CB44FD45E99E742 /* PermissionDecision.swift */,
+				51F45EE8B772D942EEB9DE5C /* ViewState.swift */,
+				D92CAEFF11C0820B00ECC043 /* WatchAgentState.swift */,
+				68BBE7B459968869794ADB56 /* WatchMetadata.swift */,
+				2BDEBE266C1C21CFF6A96EB4 /* WatchSession.swift */,
+			);
+			name = Models;
+			path = HappyWatchApp/Models;
+			sourceTree = "<group>";
+		};
+		E9E89202837ADCC84A66970F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8AF28FD8FF0A51085DE11BB4 /* Approval */,
+				ECF60947F798E10061F8C5E1 /* Onboarding */,
+				F9E51A36D1785E481EF073C5 /* Sessions */,
+				0B58E837F7F8B3CCBDD17A1F /* Status */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EC97C5C3427FFF89F3E8FF27 /* HappyWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFA8190E726BF9C170B496E1 /* Mocks */,
+				AE99F149D1F1DE7124BC3B3B /* Models */,
+				1934FD0D6E80262AE275E4A5 /* Services */,
+			);
+			path = HappyWatchTests;
+			sourceTree = "<group>";
+		};
+		ECF60947F798E10061F8C5E1 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				43F44471CB3A936415B8DAFF /* AuthSuccessView.swift */,
+				D77118FDCFB37F3F93228561 /* PairingView.swift */,
+				3C31522A1253682BF551A612 /* WaitingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		F9E51A36D1785E481EF073C5 /* Sessions */ = {
+			isa = PBXGroup;
+			children = (
+				9EEF93ACCD2F5DF9262A609F /* EmptyView.swift */,
+				BF7195A89DC49B4071B99889 /* SessionListView.swift */,
+				DBD7E11CA1E3BA51799F01DD /* SessionRowView.swift */,
+			);
+			path = Sessions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34CB626C19D971CAF15D2C55 /* HappyWatchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F7BAD1DF621CE3658D60E6D /* Build configuration list for PBXNativeTarget "HappyWatchApp" */;
+			buildPhases = (
+				0DF63FC524CF80913E283121 /* Sources */,
+				3FE1EADB80540231474F7E4D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyWatchApp;
+			packageProductDependencies = (
+				D904E7ABA9EF48561EEB1B63 /* KeychainSwift */,
+			);
+			productName = HappyWatchApp;
+			productReference = 8B0B6EE451E818A2B4B3F6F8 /* HappyWatchApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FC35915539F094C2751D38E /* HappyWatchWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F514D562BC7F27A410AEDC51 /* Build configuration list for PBXNativeTarget "HappyWatchWidgets" */;
+			buildPhases = (
+				E5E35E747BB522232713CF94 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyWatchWidgets;
+			packageProductDependencies = (
+			);
+			productName = HappyWatchWidgets;
+			productReference = 35BC3E062958E3B5BACE51E3 /* HappyWatchWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		A1DE783EAF3B7BFE4BF810DD /* HappyWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1B858354A5FD9462CF4580C /* Build configuration list for PBXNativeTarget "HappyWatchTests" */;
+			buildPhases = (
+				F0C5872EDD0B1D2D3B974D42 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90BF31975136E6A228110BC7 /* PBXTargetDependency */,
+			);
+			name = HappyWatchTests;
+			packageProductDependencies = (
+			);
+			productName = HappyWatchTests;
+			productReference = 787FFE4B91442B7A1D36DC01 /* HappyWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A86B3B16D417658409E23BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					A1DE783EAF3B7BFE4BF810DD = {
+						TestTargetID = 34CB626C19D971CAF15D2C55;
+					};
+				};
+			};
+			buildConfigurationList = 435125C9D1099F1DAE87F741 /* Build configuration list for PBXProject "HappyWatch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 14759947E29187C753B70A22;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				9444DF2AFED3DADA8E6089E5 /* XCRemoteSwiftPackageReference "keychain-swift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34CB626C19D971CAF15D2C55 /* HappyWatchApp */,
+				A1DE783EAF3B7BFE4BF810DD /* HappyWatchTests */,
+				3FC35915539F094C2751D38E /* HappyWatchWidgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DF63FC524CF80913E283121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07B1290549646CDEB1223C5 /* AppGroupStorage.swift in Sources */,
+				3CDB84E1FA50215354B2F1C0 /* AppState.swift in Sources */,
+				D7AE386AF4C34D721D0F6082 /* ApprovalActionsView.swift in Sources */,
+				D4FCF97FCB95A5FC6F860C1C /* ApprovalDetailView.swift in Sources */,
+				32B0D15CFA5C9DD8C6E6E71D /* ApprovalListView.swift in Sources */,
+				36470C3CB15E4DFF6FC08FF0 /* ApprovalVM.swift in Sources */,
+				4FF4CC616B2CF91883A56DE1 /* AuthService.swift in Sources */,
+				BCF9B718F39904746CDE755B /* AuthSuccessView.swift in Sources */,
+				C8957FB8462C478996A9445D /* ClaudeState.swift in Sources */,
+				E42418F89AC2A2195D564AFD /* ConfirmationView.swift in Sources */,
+				0F5986C2CF67C04F2BDE7A57 /* ConnectivityService.swift in Sources */,
+				DFFE545AB9C44EA692A85292 /* ContentView.swift in Sources */,
+				D27AFECE955EC8DE9FACDD44 /* EmptyView.swift in Sources */,
+				A39504F238DB775AF41AC211 /* EncryptionBridge.swift in Sources */,
+				2F059BD346C93EAF199423F8 /* GlassStyles.swift in Sources */,
+				538991467A8BE11800D1829D /* HappyColors.swift in Sources */,
+				0F3CB7655C72F560546D78F0 /* HappyTypography.swift in Sources */,
+				C5858EF419018CE140DCA5E9 /* HappyWatchApp.swift in Sources */,
+				A4F91238AD3D5B98274DF263 /* IdleView.swift in Sources */,
+				682B862779E6130CFA8EE50F /* KeychainHelper.swift in Sources */,
+				BD2CDBF51D44D8BA8D013C73 /* NotificationService.swift in Sources */,
+				CE8164BEACC323466FFEA03A /* PairingView.swift in Sources */,
+				4A9C9ED377FB46DE06E4277A /* PermissionDecision.swift in Sources */,
+				B3642C2B5E8702BE9AD603A9 /* RESTService.swift in Sources */,
+				B7FDD18885289314D707BADE /* SessionDetailVM.swift in Sources */,
+				A15DF13017907F2DA3B17F24 /* SessionListVM.swift in Sources */,
+				D5D66279030D551B5944BA05 /* SessionListView.swift in Sources */,
+				9E5E9F4D550DF79BAAD0E503 /* SessionRowView.swift in Sources */,
+				348DAD4C9C7669AE849B3557 /* StatusBadge.swift in Sources */,
+				8396A0B82C68778E275641B2 /* SyncService.swift in Sources */,
+				FD4A8385310EBD190C9D61C2 /* ViewState.swift in Sources */,
+				221187DECE5C6AD372D89139 /* WaitingView.swift in Sources */,
+				8841C90C881D0A501ED25578 /* WatchAgentState.swift in Sources */,
+				9D704CE73EF362D8AFCCED52 /* WatchMetadata.swift in Sources */,
+				E17DA2D5FACCB9C4A4E52551 /* WatchSession.swift in Sources */,
+				AC77881928F9C29AEF966A2C /* WorkingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5E35E747BB522232713CF94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED63E6D23CC9B41F87CBD12C /* AppGroupStorage.swift in Sources */,
+				A57BC3F354DEEA44D20EAD35 /* ApproveControl.swift in Sources */,
+				4F9D122102C70EEE070DF610 /* CircularComplication.swift in Sources */,
+				30AECC28A936949C0AB169B8 /* ClaudeState.swift in Sources */,
+				D56B146AA1FAC9094D1A312B /* CornerComplication.swift in Sources */,
+				8C3CE842BE4A50C08D94A022 /* HappyColors.swift in Sources */,
+				D888E63C20D0FBDA5C11D732 /* HappyWatchWidgetBundle.swift in Sources */,
+				6BF4FBAA7ADA340784B7DC81 /* InlineComplication.swift in Sources */,
+				B77E4A98901E3187E744318B /* PermissionDecision.swift in Sources */,
+				144BD6D4E75FB93D2124D3B8 /* RectangularComplication.swift in Sources */,
+				F325CA564AA71367C7B3B265 /* RelevanceProvider.swift in Sources */,
+				AE32E95EFC7489C248416F44 /* TimelineProvider.swift in Sources */,
+				1D0901CCD7FBDB5704BA8802 /* ViewState.swift in Sources */,
+				AB255DF64704A87B6F3F7D4A /* WatchAgentState.swift in Sources */,
+				D1A52FC689BFEE8AF13E5E6E /* WatchMetadata.swift in Sources */,
+				99A43895F52C4FF1F1B661B7 /* WatchSession.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0C5872EDD0B1D2D3B974D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D487831ADA6131C747E4AF98 /* ClaudeStateTests.swift in Sources */,
+				9C1010CB70892D389FDD72E3 /* MockData.swift in Sources */,
+				7DAA882DBE40F7C28E32D78B /* SyncServiceTests.swift in Sources */,
+				FEDD7C8560CAF744748A08C0 /* ViewStateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90BF31975136E6A228110BC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34CB626C19D971CAF15D2C55 /* HappyWatchApp */;
+			targetProxy = AAE604BAE269BB0DE7FD5B83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		286C5BBDC593D0DE24ABD714 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HappyWatchApp/HappyWatchApp.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = Happy;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.slopus.happy.dev;
+				INFOPLIST_KEY_WKWatchOnly = NO;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slopus.happy.dev.watchapp;
+				PRODUCT_MODULE_NAME = HappyWatchApp;
+				PRODUCT_NAME = Happy;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		3ED9451ED47898A6159710EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HappyWatchApp/HappyWatchApp.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = Happy;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.slopus.happy.dev;
+				INFOPLIST_KEY_WKWatchOnly = NO;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slopus.happy.dev.watchapp;
+				PRODUCT_MODULE_NAME = HappyWatchApp;
+				PRODUCT_NAME = Happy;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		3F695B5026C2E729972459C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.slopus.happy.dev.watchapp.tests;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Happy.app/Happy";
+				TEST_TARGET_NAME = HappyWatchApp;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		4AEB0A3BB61F034E57FB9664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = HappyWatchWidgets/HappyWatchWidgets.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = "Happy Widgets";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slopus.happy.dev.watchapp.widgets;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		57454FE63AD4954DF8BED7C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		57E280D0421A851297E860E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = HappyWatchWidgets/HappyWatchWidgets.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = "Happy Widgets";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slopus.happy.dev.watchapp.widgets;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		80BC798A7F1A68C3AED77E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.slopus.happy.dev.watchapp.tests;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Happy.app/Happy";
+				TEST_TARGET_NAME = HappyWatchApp;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		E25DDE6DAA30FCA3E58169D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F7BAD1DF621CE3658D60E6D /* Build configuration list for PBXNativeTarget "HappyWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286C5BBDC593D0DE24ABD714 /* Debug */,
+				3ED9451ED47898A6159710EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		435125C9D1099F1DAE87F741 /* Build configuration list for PBXProject "HappyWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25DDE6DAA30FCA3E58169D5 /* Debug */,
+				57454FE63AD4954DF8BED7C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C1B858354A5FD9462CF4580C /* Build configuration list for PBXNativeTarget "HappyWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80BC798A7F1A68C3AED77E0B /* Debug */,
+				3F695B5026C2E729972459C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F514D562BC7F27A410AEDC51 /* Build configuration list for PBXNativeTarget "HappyWatchWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57E280D0421A851297E860E1 /* Debug */,
+				4AEB0A3BB61F034E57FB9664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9444DF2AFED3DADA8E6089E5 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/keychain-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 24.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D904E7ABA9EF48561EEB1B63 /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9444DF2AFED3DADA8E6089E5 /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2A86B3B16D417658409E23BD /* Project object */;
+}
