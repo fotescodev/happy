@@ -44,6 +44,14 @@ final class AuthService {
         KeychainHelper.shared.loadSessionKey(sessionId: sessionId)
     }
 
+    #if DEBUG
+    /// Fake authentication for preview/debug mode (no Keychain involved)
+    func authenticateForDebug() {
+        isAuthenticated = true
+        serverUrl = "https://debug.local"
+    }
+    #endif
+
     /// Clear all credentials (logout / unpair)
     func logout() {
         KeychainHelper.shared.clearAll()

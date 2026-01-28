@@ -16,7 +16,10 @@ final class AppState {
         case approvalList
     }
 
+    private let isDebugMode: Bool
+
     init() {
+        isDebugMode = false
         sync = SyncService(connectivity: connectivity, auth: auth)
         connectivity.activate()
 
@@ -24,6 +27,21 @@ final class AppState {
         NotificationService.shared.setup()
         Task { await requestNotificationPermission() }
     }
+
+    #if DEBUG
+    /// Create an AppState pre-loaded with mock data for simulator testing
+    static func debug() -> AppState {
+        let state = AppState(debugMode: true)
+        return state
+    }
+
+    private init(debugMode: Bool) {
+        isDebugMode = true
+        sync = SyncService(connectivity: connectivity, auth: auth)
+        auth.authenticateForDebug()
+        sync.injectMockData(PreviewData.allSessions)
+    }
+    #endif
 
     // MARK: - Derived State
 

@@ -29,6 +29,14 @@ final class SyncService {
         setupConnectivityCallbacks()
     }
 
+    #if DEBUG
+    /// Inject mock sessions for preview/debug mode
+    func injectMockData(_ mockSessions: [WatchSession]) {
+        sessions = mockSessions
+        syncSource = .watchConnectivity
+    }
+    #endif
+
     // MARK: - WatchConnectivity Callbacks
 
     private func setupConnectivityCallbacks() {

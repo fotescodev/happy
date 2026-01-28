@@ -17,6 +17,7 @@
 		32B0D15CFA5C9DD8C6E6E71D /* ApprovalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2253901C57DB3C9D17EB2D77 /* ApprovalListView.swift */; };
 		348DAD4C9C7669AE849B3557 /* StatusBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B347347DC4766D77E09C62E2 /* StatusBadge.swift */; };
 		36470C3CB15E4DFF6FC08FF0 /* ApprovalVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93976F3E4489554DB8E11CB7 /* ApprovalVM.swift */; };
+		3BCB38C4D069973120008C96 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39ADDAEF91AB95B1CD604C84 /* PreviewData.swift */; };
 		3CDB84E1FA50215354B2F1C0 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE4C5972CB9C872D87D7BA /* AppState.swift */; };
 		4A9C9ED377FB46DE06E4277A /* PermissionDecision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CE694B6CB44FD45E99E742 /* PermissionDecision.swift */; };
 		4F9D122102C70EEE070DF610 /* CircularComplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE09DB82B14DD4B96F565345 /* CircularComplication.swift */; };
@@ -90,6 +91,7 @@
 		2A6BAE0CD8B7D61A343ECE66 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		2BDEBE266C1C21CFF6A96EB4 /* WatchSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSession.swift; sourceTree = "<group>"; };
 		35BC3E062958E3B5BACE51E3 /* HappyWatchWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HappyWatchWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		39ADDAEF91AB95B1CD604C84 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 		3C31522A1253682BF551A612 /* WaitingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingView.swift; sourceTree = "<group>"; };
 		41CAC9655E4022AE62539181 /* SessionListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionListVM.swift; sourceTree = "<group>"; };
 		43490E430EA97BDD266E0FA8 /* RESTService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESTService.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 			children = (
 				AE6C8560E584B88CBA2469B5 /* AppGroupStorage.swift */,
 				AE1DD0F83F0D378605079DC7 /* KeychainHelper.swift */,
+				39ADDAEF91AB95B1CD604C84 /* PreviewData.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -498,6 +501,7 @@
 				BD2CDBF51D44D8BA8D013C73 /* NotificationService.swift in Sources */,
 				CE8164BEACC323466FFEA03A /* PairingView.swift in Sources */,
 				4A9C9ED377FB46DE06E4277A /* PermissionDecision.swift in Sources */,
+				3BCB38C4D069973120008C96 /* PreviewData.swift in Sources */,
 				B3642C2B5E8702BE9AD603A9 /* RESTService.swift in Sources */,
 				B7FDD18885289314D707BADE /* SessionDetailVM.swift in Sources */,
 				A15DF13017907F2DA3B17F24 /* SessionListVM.swift in Sources */,
